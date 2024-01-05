@@ -60,7 +60,8 @@ Instructions on setting up the project, building, and deploying the microservice
 
 ### Prerequisites
 
-- Java JDK 8+
+- Java JDK 17
+- Spring Boot 3.2.2
 - Maven
 - Docker & Docker Compose
 - Kubernetes & Helm
