@@ -1,6 +1,6 @@
-# Easy Bank Project
+# Eazy Bank Project
 
-Easy Bank is a modern financial application designed to demonstrate the implementation of microservices architecture using Java, Spring Boot, Spring Cloud, and various other cloud-native technologies. It consists of several services such as loan-service, card-service, account-service, and infrastructure components like config-server and gateway, orchestrated using Kubernetes and Helm.
+Eazy Bank is a modern financial application designed to demonstrate the implementation of microservices architecture using Java, Spring Boot, Spring Cloud, and various other cloud-native technologies. It consists of several services such as loan-service, card-service, account-service, and infrastructure components like config-server and gateway, orchestrated using Kubernetes and Helm.
 
 ## Features
 
