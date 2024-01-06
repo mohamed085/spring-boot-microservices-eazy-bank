@@ -97,4 +97,4 @@ Credits to any third-party services or tools used in the project.
 
 ---
 
-This README provides a comprehensive guide that aligns with the course content and the technologies used in the Easy Bank project.
+This README provides a comprehensive guide that aligns with the course content and the technologies used in the Eazy Bank project.
