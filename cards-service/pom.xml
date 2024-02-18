@@ -71,7 +71,7 @@
                 <version>3.3.2</version>
                 <configuration>
                     <to>
-                        <image>${project.artifactId}:v1</image>
+                        <image>card-service:latest</image>
                     </to>
                 </configuration>
             </plugin>

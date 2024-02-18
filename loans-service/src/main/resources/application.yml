@@ -17,4 +17,21 @@ spring:
     show-sql: true
   application:
     name: LOAN-SERVICE
+  config:
+    import:
+      - "application_qa.yaml"
+      - "application_prod.yaml"
+    profiles:
+      active:
+        - "qa"
 
+build:
+  version: "3.0"
+
+loans:
+  message: "Welcome to EazyBank loans related local APIs "
+  contactDetails:
+    name: "Mohamed Emad - Developer"
+    email: "mohamed.emad.hashad@gmail.com"
+  onCallSupport:
+    - +201062202253

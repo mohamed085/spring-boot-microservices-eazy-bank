@@ -1,0 +1,37 @@
+services:
+  account-service:
+    image: account-service:latest
+    container_name: account-service
+    ports:
+      - 8080:8080
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - eazybank
+  card-service:
+    image: card-service:latest
+    container_name: card-service
+    ports:
+      - 8081:8081
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - eazybank
+  loan-service:
+    image: loan-service:latest
+    container_name: loan-service
+    ports:
+      - 8082:8082
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - eazybank
+networks:
+  eazybank:
+    driver: "bridge"

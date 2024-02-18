@@ -14,7 +14,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
-import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -22,10 +22,10 @@ import org.springframework.web.bind.annotation.*;
 
 @Validated
 @RestController
-@AllArgsConstructor
+@RequiredArgsConstructor
 @RequestMapping(path = "/api/accounts")
 @Tag(name = "CRUD REST APIs for Accounts in EazyBank", description = "CRUD REST APIs in EazyBank to CREATE, UPDATE, FETCH AND DELETE account details")
-public class AccountController {
+public class AccountResource {
 
     private final AccountService accountService;
 
@@ -86,5 +86,4 @@ public class AccountController {
                     .body(new Response(Constants.STATUS_417, Constants.MESSAGE_417_DELETE));
         }
     }
-
 }
