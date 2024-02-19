@@ -20,4 +20,4 @@ spring:
       ddl-auto: update
     show-sql: true
   config:
-    import: "optional:config-server:http://localhost:8071/"
+    import: "optional:config-server:http://localhost:8888/"
