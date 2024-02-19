@@ -1,0 +1,10 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related local APIs "
+  contactDetails:
+    name: "Mohamed Emad - Developer"
+    email: "mohamed.emad.hashad@gmail.com"
+  onCallSupport:
+    - +201062202253
